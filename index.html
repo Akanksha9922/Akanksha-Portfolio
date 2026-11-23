@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Meet Dave – Data Analyst portfolio: Power BI, SQL, Python and Excel projects." />
+  <title>Akanksha Singh | Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__logo" href="#home">Akanksha Singh</a>
+      <button class="nav__toggle" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav class="nav__menu" id="menu" aria-label="Main">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#contact" class="nav__cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Home -->
+    <section class="hero" id="home">
+      <div class="wrap hero__grid">
+        <div class="hero__text">
+          <p class="hero__hello">Hello,</p>
+          <h1 class="hero__title"><span id="typed" data-text="I'm a Data Analyst"></span></h1>
+          <p class="hero__from"><i class="fas fa-map-marker-alt"></i> From India</p>
+          <p class="hero__lead">I turn raw data into dashboards and decisions with Power BI, SQL, Python and Excel.</p>
+          <div class="hero__actions">
+            <button class="btn btn--primary" data-mail>Hire me</button>
+            <a class="btn btn--ghost" href="#projects">See my work</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__photo">
+            <img src="./Akanksha.jpeg" alt="Portrait of Meet Dave" />
+          </div>
+          <div class="hero__bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="wrap">
+        <h2 class="section__title">About me</h2>
+        <div class="about">
+          <img class="about__img" src="./Akanksha.jpeg" alt="Meet Dave" loading="lazy" />
+          <div>
+            <h3 class="about__topic">Data analytics enthusiast</h3>
+            <p>Project Officer with hands-on experience in data management, reporting and managing data in IMS sheets.
+              Data analytics enthusiast working with tools like Power BI and SQL.</p>
+            <button class="btn btn--primary" id="cvBtn"><i class="fas fa-download"></i> Download CV</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section--tint" id="projects">
+      <div class="wrap">
+        <h2 class="section__title">My projects</h2>
+        <div class="projects">
+          <article class="card project">
+            <video src="./Project Video.mp4" controls muted autoplay loop playsinline></video>
+            <div class="card__body">
+              <h3>Data analytics dashboard demonstration</h3>
+              <p>Interactive dashboards that analyze trends and performance across domains. I clean and transform raw
+                data, build KPIs, and present insights through dynamic charts and filters to support data-driven
+                decisions.</p>
+            </div>
+          </article>
+
+          <article class="card project">
+            <img src="./Job Analysis Project.jpg" alt="AI Job & Analysis dashboard" loading="lazy" />
+            <div class="card__body">
+              <h3>AI Job Market &amp; Analysis | Python, EDA</h3>
+              <p>Analyzed 15,000 job records using Python to identify salary trends, industry demand, employment patterns, and in-demand skills through data cleaning, EDA, and visualization.</p>
+              <a href="./Job Analysis Project FIle.pdf" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">View
+                dashboard (PDF)</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <img src="./Nifty Fifty Project.jpg" alt="Nifty Fifty Analysis dashboard" loading="lazy" />
+            <div class="card__body">
+              <h3>Nifty Fifty Analysis</h3>
+              <p>Analyzed 48 Nifty 50 stocks using Python, MySQL, Excel, and Power BI to evaluate stock performance, returns, volatility, and trading trends through data analysis and interactive dashboards.</p>
+              <a href="./Nifty Fifty Project.pdf" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">View
+                dashboard (PDF)</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section--accent" id="skills">
+      <div class="wrap">
+        <h2 class="section__title">My skills</h2>
+        <div class="skills">
+          <div>
+            <h3 class="about__topic">Tools I work with</h3>
+            <p>Python, MySQL, Advanced Excel and Power BI.</p>
+            <p class="skills__note">New to the field, and excited to make an impact as a fresher with relevant
+              experience.</p>
+          </div>
+          <ul class="bars">
+            <li>
+              <div class="bars__row"><span>Python</span><b>95%</b></div>
+              <div class="bars__track"><i data-level="95"></i></div>
+            </li>
+            <li>
+              <div class="bars__row"><span>MySQL</span><b>90%</b></div>
+              <div class="bars__track"><i data-level="90"></i></div>
+            </li>
+            <li>
+              <div class="bars__row"><span>Advanced Excel</span><b>100%</b></div>
+              <div class="bars__track"><i data-level="100"></i></div>
+            </li>
+            <li>
+              <div class="bars__row"><span>Power BI</span><b>95%</b></div>
+              <div class="bars__track"><i data-level="95"></i></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="wrap">
+        <h2 class="section__title">My services</h2>
+        <div class="services">
+          <article class="card service"><span class="service__icon"><i class="fas fa-database"></i></span>
+            <h3>Data collection</h3>
+            <p>Gather data from Excel files, Google Sheets, databases, CRM tools, websites, APIs and surveys, with a
+              clear view of each source and its business relevance.</p>
+          </article>
+          <article class="card service"><span class="service__icon"><i class="fas fa-filter"></i></span>
+            <h3>Data cleaning &amp; preprocessing</h3>
+            <p>Remove duplicates, fix missing values and errors, and standardize formats so insights and decisions rest
+              on reliable data.</p>
+          </article>
+          <article class="card service"><span class="service__icon"><i class="fas fa-table"></i></span>
+            <h3>Data organization &amp; structuring</h3>
+            <p>Organize data into structured tables with meaningful headers, then sort, filter, group and categorize it
+              for easy analysis.</p>
+          </article>
+          <article class="card service"><span class="service__icon"><i class="fas fa-file-excel"></i></span>
+            <h3>Excel &amp; spreadsheets</h3>
+            <p>Calculations, pivot tables, charts, VLOOKUP/XLOOKUP, conditional formatting and basic automation.</p>
+          </article>
+          <article class="card service"><span class="service__icon"><i class="fas fa-code"></i></span>
+            <h3>SQL queries</h3>
+            <p>Write SELECT, WHERE, ORDER BY, GROUP BY and JOIN queries to pull the data you need from large databases.
+            </p>
+          </article>
+          <article class="card service"><span class="service__icon"><i class="fas fa-chart-line"></i></span>
+            <h3>Reports &amp; dashboards</h3>
+            <p>Build reports in Excel, Power BI, Tableau or Google Data Studio that non-technical stakeholders can read
+              at a glance.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--accent contact" id="contact">
+      <div class="wrap contact__box">
+        <h2 class="contact__title">Need answers from data? Let’s decode it.</h2>
+        <p>I help businesses uncover patterns, track performance and make data-driven decisions, turning raw numbers
+          into clear strategies.</p>
+        <button class="btn btn--dark" data-mail>Let’s chat</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Meet Dave. All rights reserved.</p>
+  </footer>
+
+  <a href="#home" class="to-top" id="toTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
